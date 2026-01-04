@@ -1,9 +1,44 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: shotcut
+Upstream-Contact: Dan Dennedy <dan@dennedy.org> and Brian Matherly <code@biranmatherly.com>
+Files-Excluded: drmingw/x64/*
+Source: https://github.com/mltframework/shotcut
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
+Copyright: 2011-2026 Dan Dennedy <dan@dennedy.org>
+           2011-2019 Brian Matherly <code@biranmatherly.com>
+           2019 Meltytech, LLC
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02111
+ USA.
+
+Files: CuteLogger/*
+Copyright: 2012 Boris Moiseev <cyberbobs@gmail.com>
+License: LGPL-2.1+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 2.1
+ as published by the Free Software Foundation and appearing in the file
+ LICENSE.LGPL included in the packaging of this file.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+
+Files: debian/*
+Copyright: 2018-2026 Alex Myczko <tar@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

@@ -1,15 +1,83 @@
-Source: template-repository
-Section: unknown
+Source: shotcut
+Section: video
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alex Myczko <tar@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ libmlt++-dev (>= 7.36.1),
+ libmlt-dev,
+ libmovit-dev,
+ libmp3lame-dev,
+ libx264-dev,
+ libx265-dev,
+ libqt6opengl6-dev,
+ libjs-three,
+ qml6-module-qtmultimedia,
+ qml-module-qtquick-privatewidgets,
+ qml-qt6,
+ frei0r-plugins-dev,
+ patchelf,
+ qt6-multimedia-dev,
+ qt6-base-dev,
+ qt6-declarative-dev,
+ qt6-tools-dev,
+ qt6-quick3d-dev,
+ qt6-charts-dev,
+ qt6-websockets-dev,
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/multimedia-team/shotcut.git
+Vcs-Browser: https://salsa.debian.org/multimedia-team/shotcut
+Homepage: https://www.shotcut.org/
 
-Package: template-repository
+Package: shotcut
 Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ libjs-three,
+ qml6-module-qt-labs-animation,
+ qml6-module-qt-labs-folderlistmodel,
+ qml6-module-qt-labs-lottieqt,
+ qml6-module-qt-labs-platform,
+ qml6-module-qt-labs-qmlmodels,
+ qml6-module-qt-labs-settings,
+ qml6-module-qt-labs-sharedimage,
+ qml6-module-qt-labs-wavefrontmesh,
+ qml6-module-qtcore,
+ qml6-module-qtqml,
+ qml6-module-qtqml-models,
+ qml6-module-qtqml-statemachine,
+ qml6-module-qtqml-workerscript,
+ qml6-module-qtqml-xmllistmodel,
+ qml6-module-qtquick,
+ qml6-module-qtquick-localstorage,
+ qml6-module-qtquick-particles,
+ qml6-module-qtquick-shapes,
+ qml6-module-qtquick-templates,
+ qml6-module-qtquick-timeline,
+ qml6-module-qtquick-tooling,
+ qml6-module-qtquick-virtualkeyboard,
+ qml6-module-qtquick-window,
+ qml6-module-qtquick-controls,
+ qml6-module-qtquick-dialogs,
+ qml6-module-qtquick-layouts,
+ melt,
+ frei0r-plugins,
+ shotcut-data (>= ${source:Version}),
+Description: video editor
+ This is a video editor with features like 4k resolution support,
+ network stream playback, audio/webcam captures, and many more.
+
+Package: shotcut-data
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Breaks: shotcut (<< 20.11.28+ds-1)
+Replaces: shotcut (<< 20.11.28+ds-1)
+Description: video editor data
+ This is a video editor with features like 4k resolution support,
+ network stream playback, audio/webcam captures, and many more.
+ .
+ These are data files needed for the binary package.

@@ -1,0 +1,10 @@
+Makefile
+share/shotcut/translations/*
+CuteLogger/*.o
+CuteLogger/*.a
+.qmake.stash
+CuteLogger/libCuteLogger.prl
+CuteLogger/Makefile
+translations/Makefile
+packaging/linux/org.shotcut.Shotcut.appdata.xml
+packaging/linux/org.shotcut.Shotcut.metainfo.xml

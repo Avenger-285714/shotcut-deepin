@@ -1,0 +1,37 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ shotcut (25.10.31+ds-2) unstable; urgency=medium
+ .
+   * Change upstream TIMESTAMP to UTC.
+Author: Alex Myczko <tar@debian.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2025-11-14
+
+--- shotcut-25.10.31+ds.orig/CMakeLists.txt
++++ shotcut-25.10.31+ds/CMakeLists.txt
+@@ -5,7 +5,7 @@ if (${CMAKE_VERSION} VERSION_GREATER_EQU
+ endif()
+ 
+ if(NOT DEFINED SHOTCUT_VERSION)
+-  string(TIMESTAMP SHOTCUT_VERSION "%y.%m.%d")
++  string(TIMESTAMP SHOTCUT_VERSION "%y.%m.%d" UTC)
+   # Remove leading zeros from each digit group
+   string(REGEX REPLACE "0*([0-9]+)" "\\1" SHOTCUT_VERSION "${SHOTCUT_VERSION}")
+ endif()

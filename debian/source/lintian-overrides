@@ -1,0 +1,4 @@
+# Partly included in the executable binary with qt resource links.
+# Upstream distributes it like this, repacking would be overkill though, so
+# <strike>tell lintian to not complain:</strike>
+shotcut source: source-is-missing *

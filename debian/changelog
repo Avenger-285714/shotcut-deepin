@@ -1,5 +1,415 @@
-template-repository (1.0-1) unstable; urgency=medium
+shotcut (25.12.31+ds-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
+  * d/copyright: bump years.
+  * d/control: versioned libmlt-dev.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alex Myczko <tar@debian.org>  Thu, 01 Jan 2026 16:27:07 +0100
+
+shotcut (25.12.2+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Wed, 10 Dec 2025 14:43:24 +0000
+
+shotcut (25.10.31+ds-2) unstable; urgency=medium
+
+  * Change upstream TIMESTAMP to UTC to fix FTBR.
+
+ -- Alex Myczko <tar@debian.org>  Fri, 14 Nov 2025 09:17:49 +0100
+
+shotcut (25.10.31+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/control: add qt6-websockets-dev to build-depends.
+
+ -- Alex Myczko <tar@debian.org>  Mon, 03 Nov 2025 08:26:32 +0100
+
+shotcut (25.08.16+ds-1) unstable; urgency=medium
+
+  * New upstream version. (Closes: #1113498)
+  * Bump standards version to 4.7.2.
+  * d/control: drop qml6-module-qtquick-nativestyle Depends. (Closes: #1112353)
+
+ -- Alex Myczko <tar@debian.org>  Fri, 12 Sep 2025 10:42:38 +0200
+
+shotcut (25.03.29+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Mon, 31 Mar 2025 11:05:11 +0000
+
+shotcut (25.03.13+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Fri, 14 Mar 2025 07:30:00 +0000
+
+shotcut (25.03.12+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Thu, 13 Mar 2025 11:29:46 +0000
+
+shotcut (25.01.25+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/README.source and d/shotcut.docs: dropped in favor of d/copyright.
+
+ -- Alex Myczko <tar@debian.org>  Thu, 13 Feb 2025 11:34:02 +0000
+
+shotcut (24.11.27+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Wed, 20 Nov 2024 11:06:58 +0000
+
+shotcut (24.10.29+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Mon, 11 Nov 2024 10:07:55 +0000
+
+shotcut (24.09.13+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Thu, 19 Sep 2024 07:41:40 +0000
+
+shotcut (24.08.29+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Fri, 30 Aug 2024 06:20:05 +0000
+
+shotcut (24.06.26+git20240816+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Alex Myczko <tar@debian.org>  Fri, 16 Aug 2024 12:36:35 +0000
+
+shotcut (24.04.28+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: bump years.
+
+ -- Alex Myczko <tar@debian.org>  Tue, 30 Apr 2024 08:56:03 +0200
+
+shotcut (24.02.29+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Fri, 01 Mar 2024 08:34:26 +0100
+
+shotcut (24.01.31+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Tue, 06 Feb 2024 08:14:33 +0100
+
+shotcut (24.01.28+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 29 Jan 2024 08:14:41 +0100
+
+shotcut (23.12.15+git20231218+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 18 Dec 2023 08:19:26 +0100
+
+shotcut (23.11.29+git20231201+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/control: add qt6-charts-dev to build-depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Fri, 01 Dec 2023 15:46:40 +0100
+
+shotcut (23.09+git20231015+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: bump years.
+
+ -- Gürkan Myczko <tar@debian.org>  Sun, 15 Oct 2023 15:05:41 +0200
+
+shotcut (23.07.29+git20230730+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Sun, 30 Jul 2023 13:33:28 +0200
+
+shotcut (23.06.14+git20230616+ds-4) unstable; urgency=medium
+
+  * Really fix broken Depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 21 Jun 2023 07:12:58 +0200
+
+shotcut (23.06.14+git20230616+ds-3) unstable; urgency=medium
+
+  * Fix broken Depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Tue, 20 Jun 2023 10:24:31 +0200
+
+shotcut (23.06.14+git20230616+ds-2) unstable; urgency=medium
+
+  * Fix Depends and Build-Depends. (Closes: #1038388)
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 19 Jun 2023 14:55:31 +0200
+
+shotcut (23.06.14+git20230616+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Fri, 16 Jun 2023 12:39:17 +0200
+
+shotcut (23.05.14+git20230514+ds-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Gürkan Myczko <tar@debian.org>  Sun, 11 Jun 2023 16:11:19 +0200
+
+shotcut (23.05.14+git20230514+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 17 May 2023 14:50:15 +0200
+
+shotcut (23.05.07+git20230509+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+  * d/control: add qt6-multimedia-dev, qt6-quick3d-dev, qml-qt6,
+    qt6-base-dev, libqt6opengl6-dev, qt6-declarative-dev to build-depends.
+  * Bump standards version to 4.6.2.
+
+ -- Gürkan Myczko <tar@debian.org>  Tue, 09 May 2023 10:37:24 +0200
+
+shotcut (22.12.21+ds-2) unstable; urgency=medium
+
+  * d/rules: fix for broken executable script fix.
+
+ -- Gürkan Myczko <tar@debian.org>  Thu, 22 Dec 2022 10:21:55 +0100
+
+shotcut (22.12.21+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/rules: fix lintian script not executable.
+
+ -- Gürkan Myczko <tar@debian.org>  Thu, 22 Dec 2022 09:06:28 +0100
+
+shotcut (22.11.25+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 28 Nov 2022 12:20:34 +0100
+
+shotcut (22.10.25+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 31 Oct 2022 12:12:45 +0100
+
+shotcut (22.10.22+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 24 Oct 2022 07:53:17 +0200
+
+shotcut (22.10.09~beta1+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 12 Oct 2022 13:08:02 +0200
+
+shotcut (22.09.23+ds-4) unstable; urgency=medium
+
+  * d/rules: fix for binary-all FTBFS. (Closes: #1020994)
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 05 Oct 2022 10:25:15 +0200
+
+shotcut (22.09.23+ds-3) unstable; urgency=medium
+
+  * d/control: also add qttools5-private-dev to build-depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 26 Sep 2022 16:15:53 +0200
+
+shotcut (22.09.23+ds-2) unstable; urgency=medium
+
+  * d/control: add cmake to build-depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 26 Sep 2022 16:00:00 +0200
+
+shotcut (22.09.23+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 4.6.1.
+  * d/control: build-depend on elfpatch.
+  * d/rules: patch binary to find local library.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 26 Sep 2022 14:06:33 +0200
+
+shotcut (22.01.30+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Sun, 30 Jan 2022 21:54:21 +0100
+
+shotcut (22.01.17~beta1+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Tue, 18 Jan 2022 10:41:37 +0100
+
+shotcut (21.12.24+ds-2) unstable; urgency=medium
+
+  * d/control: add frei0r-plugins to depends.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 03 Jan 2022 13:44:05 +0100
+
+shotcut (21.12.24+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Sat, 25 Dec 2021 21:34:24 +0100
+
+shotcut (21.12.21+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: bump years.
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 22 Dec 2021 05:42:11 +0100
+
+shotcut (21.10.31+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Update maintainer address.
+  * Bump standards version to 4.6.0.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 01 Nov 2021 08:07:55 +0100
+
+shotcut (21.09.20+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Wed, 22 Sep 2021 08:58:14 +0200
+
+shotcut (21.09.13+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 20 Sep 2021 08:19:39 +0200
+
+shotcut (21.08.29+ds-1) unstable; urgency=medium
+
+  * New upstream version. (Closes: #993837)
+  * Bump standards version to 4.5.1.
+  * d/control: add build-depends on libx265-dev.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 07 Sep 2021 09:14:45 +0200
+
+shotcut (21.03.21+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+  * d/control: add depends on libjs-three. (Closes: #985868)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 29 Mar 2021 13:23:53 +0200
+
+shotcut (21.02.27+ds-1) experimental; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Sun, 28 Feb 2021 14:17:33 +0100
+
+shotcut (21.01.29+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: updated.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Sun, 31 Jan 2021 23:09:30 +0100
+
+shotcut (20.11.28+ds-2) unstable; urgency=medium
+
+  * Source only upload.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Wed, 09 Dec 2020 10:18:29 +0100
+
+shotcut (20.11.28+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/patches: dropped.
+  * d/s/lintian-overrides: drop curses, fix typo.
+  * d/control:
+    - drop duplicate Depends, add Build-Depends: qtquickcontrols2-5-dev.
+    - split parts to arch-indep package, add breaks/replaces.
+  * d/copyright: drop a no more matching entry.
+  * d/manpages and shotcut.1: dropped, switch to upstream version.
+  * d/watch: cleaned up lintian.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 30 Nov 2020 10:34:24 +0100
+
+shotcut (20.09.27+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+    - Fixes build with Qt 5.15. (Closes: #972176)
+  * Bump debhelper version to 13, drop d/compat.
+  * Added upstream metadata file.
+  * d/control: added Rules-Requires-Root.
+  * d/copyright:
+    - update copyright years.
+    - added Upstream-Contact.
+    - added Files-Excluded.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 16 Oct 2020 12:47:32 +0200
+
+shotcut (20.04.12-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 14 Apr 2020 08:57:14 +0200
+
+shotcut (20.04.05~b2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 10 Apr 2020 13:43:19 +0200
+
+shotcut (20.02.17-3) unstable; urgency=medium
+
+  * Add frei0r-plugins to Depends. (Closes: #951677)
+  * Update build-depends to stop build failures on armhf/armel.
+    (Closes: #950667)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Thu, 09 Apr 2020 12:29:07 +0200
+
+shotcut (20.02.17-2) unstable; urgency=medium
+
+  * d/control: add melt to Depends. (Closes: #951727)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 21 Feb 2020 09:04:34 +0100
+
+shotcut (20.02.17-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Tue, 18 Feb 2020 05:48:38 +0100
+
+shotcut (20.02.02-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Patches dropped, fixed upstream.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 03 Feb 2020 07:51:51 +0100
+
+shotcut (19.12.31-2) unstable; urgency=medium
+
+  * Bump standards version to 4.5.0
+  * Apply patch for reproducible builds. (Closes: #949817)
+    Thanks Chris Lamby.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Mon, 03 Feb 2020 05:17:34 +0100
+
+shotcut (19.12.31-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #880479)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 03 Jan 2020 09:22:29 +0100

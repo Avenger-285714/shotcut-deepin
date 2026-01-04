@@ -1,0 +1,11 @@
+#packaging/linux/org.shotcut.Shotcut.desktop usr/share/applications
+#packaging/linux/icons/128x128/org.shotcut.Shotcut.png usr/share/icons
+#packaging/linux/org.shotcut.Shotcut.png usr/share/icons
+debian/tmp/usr/bin/* usr/bin
+debian/tmp/usr/share/applications/* usr/share/applications
+debian/tmp/usr/share/icons/* usr/share/icons
+debian/tmp/usr/share/man/* usr/share/man
+debian/tmp/usr/share/metainfo/* usr/share/metainfo
+debian/tmp/usr/share/mime/* usr/share/mime
+debian/tmp/usr/lib/*/libCuteLogger.so usr/lib/shotcut
+
